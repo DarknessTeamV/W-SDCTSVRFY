@@ -1,0 +1,14 @@
+# Target labels
+ lazy_importer-populate
+# Source files and their labels
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/lazy_importer-populate
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/22489f3c417c270f6f2909266bbd1f93/lazy_importer-populate.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/17e298906aeace0f5ab3a31c38c30fce/lazy_importer-populate-complete.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-build.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-configure.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-download.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-install.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-mkdir.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-patch.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-test.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/64adece5d053c8c8cda9c211833b4c3b/lazy_importer-populate-update.rule

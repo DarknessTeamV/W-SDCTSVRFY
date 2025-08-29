@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/tmp/findwdk-populate-gitclone.cmake
+source_dir=F:/Старая вин/fumo_loader-latest/.cache/cpm/findwdk/e16a4e69fb67097fad3767918d3b21889de6d160
+work_dir=F:/Старая вин/fumo_loader-latest/.cache/cpm/findwdk
+repository=https://github.com/SergiusTheBest/FindWDK.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+      

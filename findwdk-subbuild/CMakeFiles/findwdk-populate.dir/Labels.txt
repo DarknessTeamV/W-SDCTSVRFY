@@ -1,0 +1,14 @@
+# Target labels
+ findwdk-populate
+# Source files and their labels
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/findwdk-populate
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/6b325a01284c34f7e71fe814fa77499b/findwdk-populate.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/b70c5b397c74a80cd676ed6ef9378261/findwdk-populate-complete.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-build.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-configure.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-download.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-install.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-mkdir.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-patch.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-test.rule
+F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-update.rule

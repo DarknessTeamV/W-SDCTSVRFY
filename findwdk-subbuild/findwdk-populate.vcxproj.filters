@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\b70c5b397c74a80cd676ed6ef9378261\findwdk-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\6b325a01284c34f7e71fe814fa77499b\findwdk-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\findwdk-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{33EAD031-E7A7-36BE-8E36-61B308B75412}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

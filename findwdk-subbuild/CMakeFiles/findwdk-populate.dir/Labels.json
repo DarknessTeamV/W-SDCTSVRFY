@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/findwdk-populate"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/6b325a01284c34f7e71fe814fa77499b/findwdk-populate.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/b70c5b397c74a80cd676ed6ef9378261/findwdk-populate-complete.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-build.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-configure.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-download.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-install.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-patch.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-test.rule"
+		},
+		{
+			"file" : "F:/\u0421\u0442\u0430\u0440\u0430\u044f \u0432\u0438\u043d/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/8c256c9f510d3562789581a26eceb1ab/findwdk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"findwdk-populate"
+		],
+		"name" : "findwdk-populate"
+	}
+}

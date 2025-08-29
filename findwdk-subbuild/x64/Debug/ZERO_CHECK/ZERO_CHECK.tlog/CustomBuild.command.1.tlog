@@ -1,0 +1,10 @@
+^F:\СТАРАЯ ВИН\FUMO_LOADER-LATEST\BUILD\_DEPS\FINDWDK-SUBBUILD\CMAKEFILES\6B325A01284C34F7E71FE814FA77499B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild" "-BF:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

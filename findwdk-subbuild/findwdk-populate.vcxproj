@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04ED2203-2338-396B-BE5C-33DBBD61944D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>findwdk-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/tmp/findwdk-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\Старая вин\fumo_loader-latest\.cache\cpm\findwdk"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/tmp/findwdk-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\findwdk-populate-gitinfo.txt;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\Старая вин\fumo_loader-latest\.cache\cpm\findwdk\e16a4e69fb67097fad3767918d3b21889de6d160"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/tmp/findwdk-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\tmp\findwdk-populate-gitupdate.cmake;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\findwdk-populate-update-info.txt;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\findwdk-populate-patch-info.txt;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\tmp\findwdk-populate-cfgcmd.txt;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\8c256c9f510d3562789581a26eceb1ab\findwdk-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\b70c5b397c74a80cd676ed6ef9378261\findwdk-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'findwdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/Debug/findwdk-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/findwdk-populate-prefix/src/findwdk-populate-stamp/Debug/findwdk-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-install;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-mkdir;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-download;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-update;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-patch;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-configure;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-build;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\src\findwdk-populate-stamp\Debug\findwdk-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\Debug\findwdk-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\6b325a01284c34f7e71fe814fa77499b\findwdk-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\Debug\findwdk-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\findwdk-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild" "-BF:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild" --check-stamp-file "F:/Старая вин/fumo_loader-latest/build/_deps/findwdk-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\3.31.3\CMakeSystem.cmake;F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\findwdk-populate-prefix\tmp\findwdk-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\CMakeFiles\findwdk-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\Старая вин\fumo_loader-latest\build\_deps\findwdk-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{9136EE7B-00BF-3DA4-A2E4-1A227717867E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
