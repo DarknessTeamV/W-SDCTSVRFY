@@ -1,0 +1,10 @@
+^F:\СТАРАЯ ВИН\FUMO_LOADER-LATEST\BUILD\_DEPS\LAZY_IMPORTER-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild" "-BF:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild" --check-stamp-file "F:/Старая вин/fumo_loader-latest/build/_deps/lazy_importer-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

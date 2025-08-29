@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\64adece5d053c8c8cda9c211833b4c3b\lazy_importer-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\17e298906aeace0f5ab3a31c38c30fce\lazy_importer-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\22489f3c417c270f6f2909266bbd1f93\lazy_importer-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Старая вин\fumo_loader-latest\build\_deps\lazy_importer-subbuild\CMakeFiles\lazy_importer-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B91861E1-F8C1-3B08-A016-6A4CBBD87D27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
